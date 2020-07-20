@@ -1,6 +1,7 @@
 // sudo apt-get update
 // sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 // www.codebind.com/linux-tutorials/install-opengl-ubuntu-linux/
+// 18.07.2020 15:54:42
 #include <GL/glut.h>
 
 void displayMe(void)
