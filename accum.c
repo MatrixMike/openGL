@@ -16,14 +16,14 @@ static void Init(void)
 
     thing1 = glGenLists(1);
     glNewList(thing1, GL_COMPILE);
-    glColor3f(1.0, 0.0, 0.0);
-    glRectf(-1.0, -1.0, 1.0, 0.0);
+    glColor3f(1.0, 0.0, 0.0);		// colours RED
+    glRectf(-1.0, -1.0, 1.0, 0.0);	// co-ordinates 
     glEndList();
 
     thing2 = glGenLists(1);
     glNewList(thing2, GL_COMPILE);
-    glColor3f(0.0, 1.0, 0.0);
-    glRectf(0.0, -1.0, 1.0, 1.0);
+    glColor3f(0.0, 1.0, 0.0);		// colours GREEN
+    glRectf(0.0, -1.0, 1.0, 1.0);	//
     glEndList();
 }
 
