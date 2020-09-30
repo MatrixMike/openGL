@@ -107,7 +107,7 @@ int main(int argc, char **argv)
     type |= (doubleBuffer) ? GLUT_DOUBLE : GLUT_SINGLE;
     glutInitDisplayMode(type);
     glutInitWindowSize(300, 300);
-    glutCreateWindow("Accum Test");
+    glutCreateWindow("Accum Test mjh");
 
     Init();
 
