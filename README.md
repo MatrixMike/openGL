@@ -6,3 +6,5 @@ The concepts can then be transferred to my Android Apps.
 This builds well on Tecra Laptop.
 use ./buildmeParm.sh main.cpp
 
+https://www.opengl.org/resources/libraries/glut/glut_downloads.php
+
