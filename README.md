@@ -4,3 +4,5 @@ experimental open GL programs for Linux - see elsewhere for my Android open GL c
 The concepts can then be transferred to my Android Apps.
 
 This builds well on Tecra Laptop.
+use ./buildmeParm.sh main.cpp
+
