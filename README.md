@@ -8,3 +8,5 @@ use ./buildmeParm.sh main.cpp
 
 https://www.opengl.org/resources/libraries/glut/glut_downloads.php
 
+objdump -p firstOpenGlApp
+

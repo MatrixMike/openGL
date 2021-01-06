@@ -9,7 +9,8 @@ displayMe (void)
 {
   glClear (GL_COLOR_BUFFER_BIT);
   glBegin (GL_LINE_LOOP);	// GL_POINTS ,  GL_POLYGON , GL_LINES , GL_LINE_LOOP
-/*        glVertex3f(0.5, 0.0, 0.5);
+/*
+ *      glVertex3f(0.5, 0.0, 0.5);
         glVertex3f(0.5, 0.0, 0.0);
         glVertex3f(0.0, 0.5, 0.0);
         glVertex3f(0.0, 0.0, 0.5);
@@ -22,7 +23,8 @@ displayMe (void)
   glVertex3f (-0.25, 0.25, 0.0);
   glVertex3f (0.25, 0.25, 0.0);
   glVertex3f (0.25, 0.5, 0.0);
-
+//  could read points from an array or list - then process for max and min 
+// then could do some recursion 
   glEnd ();
   glFlush ();
 }
