@@ -2,7 +2,7 @@
    phyllotactic pattern using Vogel's formula) illustrating rotations
    and scaling operations in 2D.
 */
-
+// http://algorithmicbotany.org/courses/Fall2019/Lecture06/phyllotaxis.c
 #include <math.h>
 #include <GLUT/glut.h>	// GL/glut.h if not Mac
 
