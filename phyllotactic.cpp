@@ -4,7 +4,7 @@
 */
 // http://algorithmicbotany.org/courses/Fall2019/Lecture06/phyllotaxis.c
 #include <math.h>
-#include <GLUT/glut.h>	// GL/glut.h if not Mac
+#include <GL/glut.h>	// GL/glut.h if not Mac
 
 #define RAD 57.29577951
 #define DegToRad(angle)	((angle)/RAD)
@@ -23,10 +23,11 @@ void display(void)		// define object to be displayed
 {
 	glClear (GL_COLOR_BUFFER_BIT);		// clear all pixels
 
-	float x,y;
+//	float x,y;
 	glPointSize(15.0);
 	glBegin(GL_POINTS);
 	for (int i=0; i<400; i++) {			// Vogel's formula
+			float x,y;
 		x = 0.045*sqrt(i)*cos(DegToRad(137.5)*i);
 		y = 0.045*sqrt(i)*sin(DegToRad(137.5)*i);
       	glVertex2f(x, y);

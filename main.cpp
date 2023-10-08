@@ -3,7 +3,8 @@
 // www.codebind.com/linux-tutorials/install-opengl-ubuntu-linux/
 // 18.07.2020 15:54:42
 #include <GL/glut.h>
-
+// 8/1/2022   or sudo apt install freeglut3-dev
+// see https://www.includehelp.com/linux/how-to-install-opengl-in-ubuntu-linux.aspx
 void
 displayMe (void)
 {

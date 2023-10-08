@@ -1,0 +1,10 @@
+ 2001  cd ~/openGL/
+ 2002  ls -lctrh
+ 2003  ag -i sierp
+ 2004  cat buildme.sh 
+ 2005  g++ sierpinski.cpp -o sierpinski -lglut -lGLU -lGL
+ 2006  ls -lctrh
+ 2007  ./sierpinski 
+ 2008  git pull
+ 2009  history | tail
+ 2010  history | tail > sierp.txt
