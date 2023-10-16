@@ -61,7 +61,7 @@ void display(void)					// define object to be displayed
 //	float x,y;
 	glPointSize(5.0);
 	glBegin(GL_POINTS);
-	Generate (V2f(0,0), 6);
+	Generate (V2f(0,0), 8);
 	glEnd();
 	glFlush();
 }
