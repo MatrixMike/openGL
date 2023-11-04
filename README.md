@@ -10,3 +10,6 @@ https://www.opengl.org/resources/libraries/glut/glut_downloads.php
 
 objdump -p firstOpenGlApp
 
+sudo apt install libglu1-mesa-dev freeglut3-dev
+
+
